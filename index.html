@@ -19,7 +19,10 @@
       <div class="the-circle"></div>
       <div class="left-nav">
         <ul>
-          <i class="fas fa-times"></i>
+
+          <i class="fas fa-times">
+            <div class="forHover"></div>
+          </i>
           <li class="redline">Home</li>
           <li>Videos</li>
           <li>Books</li>
@@ -27,7 +30,7 @@
         </ul>
       </div>
       <div class="content-area">
-        <img src="img/new2.jpg" width="auto" height="500px" alt="" />
+        <img src="img/heroBG.jpg" width="auto" height="500px" alt="" />
 
         <div class="title">
           <h1>
@@ -91,6 +94,13 @@
       </div>
     </div>
   </div>
+
+
+  <script>
+    document.querySelector(".fa-times").addEventListener('click', () => {
+      window.close()
+    });
+  </script>
 </body>
 
 </html>
